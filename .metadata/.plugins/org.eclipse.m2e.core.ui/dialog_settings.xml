@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\FSAD\Hibernatedemo\src\main\java\com\klu\entity\Student.java"/>
+			<item value="C:\FSAD\Hospital"/>
+			<item value="C:\FSAD\doctorappointment"/>
+			<item value="doctorappointment"/>
+			<item value="C:\FSAD\ab\pom.xml"/>
+			<item value="C:\FSAD\HibernetMySql"/>
+			<item value="C:\FSAD\courses"/>
+			<item value="C:\FSAD\bc"/>
+			<item value="C:\FSAD"/>
+			<item value="C:\FSAD\demo"/>
+			<item value="C:\FSAD\Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.mineops"/>
+			<item value="com.klu"/>
+			<item value="com.appointment"/>
+			<item value="com.hibernetdemo"/>
+			<item value="com.hdemo"/>
+			<item value="com.mysql"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="mineops"/>
+			<item value="HospitalManagement"/>
+			<item value="Hospital"/>
+			<item value="doctorappointment"/>
+			<item value="HibernetMysqlCrud"/>
+			<item value="Hibernetmysql"/>
+			<item value="hbd"/>
+			<item value="HibernetMySql"/>
+			<item value="courses"/>
+			<item value="ab"/>
+			<item value="mysql-connector-j"/>
+			<item value="demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="533"/>
+		<item key="x" value="679"/>
+		<item key="y" value="190"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\FSAD\minelogbook"/>
+			<item value="C:\FSAD\DoctorAppointmentHibernate"/>
+			<item value="C:\FSAD\Hibernatedemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

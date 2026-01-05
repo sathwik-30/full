@@ -1,0 +1,5 @@
+package com.mineops.entity;
+
+public class MineSite {
+
+}

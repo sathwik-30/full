@@ -1,0 +1,205 @@
+!SESSION 2026-01-01 14:11:55.713 -----------------------------------------------
+eclipse.buildId=4.38.0.202512052019
+java.version=25.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+This is a continuation of log file C:\FSAD\.metadata\.bak_0.log
+Created Time: 2026-01-01 15:18:56.629
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:18:56.629
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:18:56.630
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:18:58.431
+!MESSAGE 15:18:56.653 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/FSAD/minelogbook/target/classes/com/dao/mineopsdao.class, file:///C:/FSAD/minelogbook/target/classes/hibernate.cfg.xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:19:09.574
+!MESSAGE 15:19:06.275 [pool-3-thread-23] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/dao/mineopsdao.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.701
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.706
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.709
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.710
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.711
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:19:09.711
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:19:09.804
+!MESSAGE 15:19:09.803 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/dao/mineopsdao.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:19:10.261
+!MESSAGE 15:19:09.807 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/FSAD/minelogbook/src/main/java/com/dao/mineopsdao.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:19:36.502
+!MESSAGE 15:19:36.501 [pool-3-thread-21] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 5ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:19:52.827
+!MESSAGE 15:19:43.997 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentMain.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:20:03.171
+!MESSAGE 15:19:57.976 [pool-5-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/FSAD/minelogbook/src/main/java/com/dao/mineopsdao.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:20:08.996
+!MESSAGE 15:20:08.995 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/FSAD/minelogbook/src/main/java/com/dao/mineopsdao.java]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.067
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.075
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.078
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.079
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.080
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:20:09.080
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:20:09.617
+!MESSAGE 15:20:09.013 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentMain.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-01-01 15:20:09.651
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:21:20.150
+!MESSAGE 15:21:20.149 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentMain.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:22:53.547
+!MESSAGE 15:22:49.767 [pool-3-thread-24] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 1ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.778
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.785
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.788
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.789
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.790
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:25.791
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:25.823
+!MESSAGE 15:23:25.823 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/FSAD/minelogbook/target/classes/hibernate.cfg.xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:25.889
+!MESSAGE 15:23:25.886 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:26.249
+!MESSAGE 15:23:25.970 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:47.317
+!MESSAGE 15:23:26.390 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:47.319
+!MESSAGE 15:23:26.391 [pool-5-thread-13] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:47.320
+!MESSAGE 15:23:46.288 [pool-3-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:48.258
+!MESSAGE 15:23:47.534 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 4
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:48.259
+!MESSAGE 15:23:48.256 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:48.260
+!MESSAGE 15:23:48.260 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:50.391
+!MESSAGE 15:23:50.232 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:51.410
+!MESSAGE 15:23:51.409 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:55.176
+!MESSAGE 15:23:55.176 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///C:/FSAD/minelogbook/src/main/java/com/entity/equipmentusage.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.304
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.312
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.314
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.314
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:23:55.315
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:23:55.343
+!MESSAGE 15:23:55.180 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/FSAD/minelogbook/src/main/java/com/entity/equipmentusage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:24:00.684
+!MESSAGE 15:23:56.935 [pool-3-thread-24] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/entity/equipmentusage.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:29:59.870
+!MESSAGE 15:29:58.319 [pool-3-thread-27] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentMain.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:29:59.892
+!MESSAGE 15:29:59.876 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/FSAD/minelogbook/src/main/java/com/main/EquipmentUsage.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.042
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.049
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.053
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.054
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.055
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-01 15:30:00.056
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:30:00.318
+!MESSAGE 15:30:00.082 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/FSAD/minelogbook/target/classes/com/entity/equipmentusage.class, file:///C:/FSAD/minelogbook/target/classes/com/main/EquipmentUsage.class, file:///C:/FSAD/minelogbook/target/classes/hibernate.cfg.xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-01 15:30:00.319
+!MESSAGE 15:30:00.318 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///C:/FSAD/minelogbook/src/main/java/com/entity/minesite.java

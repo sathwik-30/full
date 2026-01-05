@@ -1,0 +1,45 @@
+package com.entity;
+import jakarta.persistence.Entity;
+import jakarta.persistence.*;
+@Entity
+@Table(name = "minesite")
+public class minesite {
+	  @Id
+	    private int MineId;
+	    private String MineName;
+	    private String Location;
+	    private String Status;
+
+	    public int getMineId() {
+	        return MineId;
+	    }
+
+	    public void setMineId(int MineId) {
+	        this.MineId = MineId;
+	    }
+
+	    public String getName() {
+	        return MineName;
+	    }
+
+	    public void setName(String MineName) {
+	        this.MineName = MineName;
+	    }
+
+	    public String getLocation() {
+	        return Location;
+	    }
+
+	    public void setLocation(String Location) {
+	        this.Location = Location;
+	    }
+
+	    public String getStatus() {
+	        return Status;
+	    }
+
+	    public void setStatus(String Status) {
+	        this.Status = Status;
+	    }
+	}
+

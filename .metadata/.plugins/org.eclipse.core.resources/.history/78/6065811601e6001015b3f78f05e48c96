@@ -1,0 +1,5 @@
+package com.mineops.util;
+
+public class HibernateUtil {
+
+}

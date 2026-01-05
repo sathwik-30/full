@@ -1,0 +1,5 @@
+package com.mineops.dao;
+
+public class MineSiteDAO {
+
+}

@@ -1,0 +1,26 @@
+package com.main;
+
+import java.sql.Date;
+import com.dao.equipmentdao;
+import com.entity.equipment;
+
+public class EquipmentMain {
+
+    public static void main(String[] args) {
+
+        // Create Equipment object
+        equipment e = new equipment();
+        e.setEquipmentId(1);
+        e.setMineId(1);
+        e.setName("ABC");
+        e.setPurchaseDate(new Date(System.currentTimeMillis())); // IMPORTANT FIX
+        e.setStatus("ACTIVE");
+        e.setType("Mining machine");
+
+        // Call DAO and save
+        equipmentdao dao = new equipmentdao();
+        dao.save(e);
+
+        System.out.println("Equipment inserted successfully!");
+    }
+}

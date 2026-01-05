@@ -1,0 +1,26 @@
+package com.main;
+
+//2400030409
+//CH.Dhyana Sathwik
+import com.dao.mineopsdao;
+import com.entity.equipment;
+import com.entity.minesite;
+
+
+public class MainApp 
+{
+
+    public static void main(String[] args) 
+    {
+    		minesite mine = new minesite();
+            mine.setMineId(1);
+            mine.setName("AI");
+            mine.setLocation("Nellore");
+            mine.setStatus("ACTIVE");
+
+            mineopsdao dao = new mineopsdao();
+            dao.save(mine);
+
+            System.out.println("MineSite inserted successfully!");
+    }
+}

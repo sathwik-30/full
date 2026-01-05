@@ -1,0 +1,31 @@
+package com.doctor.main;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import com.doctor.dao.PatientDAO;
+import com.doctor.entity.Patient;
+
+public class App {
+    public static void main(String[] args) {
+
+        PatientDAO dao = new PatientDAO();
+
+        // INSERT
+        Patient p = new Patient();
+        p.setPatientName("Suresh");
+        p.setMobileNo("9876543210");
+        p.setEmailId("suresh@gmail.com");
+        p.setAddress("Hyderabad");
+        p.setBookingDatetime(LocalDateTime.now());
+
+        dao.savePatient(p);
+        System.out.println("Patient inserted");
+
+        // READ
+        List<Patient> list = dao.getAllPatients();
+        for (Patient pt : list) {
+            System.out.println(pt.getPatientId() + " " + pt.getPatientName());
+        }
+    }
+}

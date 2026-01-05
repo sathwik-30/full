@@ -1,0 +1,22 @@
+package com.main;
+
+import com.dao.mineopsdao;
+import com.entity.minesite;
+
+public class MainApp {
+
+    public static void main(String[] args) {
+//2400030631
+//Kudithyala Varshith
+        minesite mine = new minesite();
+        mine.setMineId(3);
+        mine.setName("Beta Mine");
+        mine.setLocation("Kerla");
+        mine.setStatus("ACTIVE");
+
+        mineopsdao dao = new mineopsdao();
+        dao.save(mine);
+
+        System.out.println("MineSite inserted successfully!");
+    }
+}

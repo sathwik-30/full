@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+    <property name="hibernate.connection.url">
+      jdbc:mysql://localhost:3306/mineops_db?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC
+    </property>
+
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">ch_sathwik_15</property>
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+    <!-- ENTITY MAPPINGS -->
+    <mapping class="com.mineops.entity.MineSite"/>
+    <mapping class="com.mineops.entity.Equipment"/>
+    <mapping class="com.mineops.entity.Worker"/>
+    <mapping class="com.mineops.entity.ShiftLog"/>
+    <mapping class="com.mineops.entity.ProductionLog"/>
+    <mapping class="com.mineops.entity.EquipmentUsage"/>
+    <mapping class="com.mineops.entity.SafetyIncident"/>
+
+  </session-factory>
+</hibernate-configuration>
