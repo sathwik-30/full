@@ -19,10 +19,6 @@ public class MainApp {
 
     public static void main(String[] args) {
 
-        System.out.println("=================================");
-        System.out.println("      ProcurePulse System        ");
-        System.out.println("=================================");
-
         while (true) {
             showMenu();
             int choice = sc.nextInt();
@@ -43,7 +39,7 @@ public class MainApp {
                     default -> System.out.println("Invalid choice");
                 }
             } catch (Exception e) {
-                System.err.println("❌ ERROR: " + e.getMessage());
+                System.err.println(" ERROR: " + e.getMessage());
             }
         }
     }
@@ -60,9 +56,7 @@ public class MainApp {
         System.out.print("Enter choice: ");
     }
 
-    /* =======================
-       MENU OPERATIONS
-       ======================= */
+  
 
     private static void createVendor() {
 
@@ -91,7 +85,7 @@ public class MainApp {
         // For demo, we assume objects already exist.
         Vendor vendor = new Vendor("VEN-001", "Demo Vendor", null, null, null, "ACTIVE");
         Department dept = new Department("CSE", "Computer Science", BigDecimal.valueOf(2500000));
-        Employee emp = new Employee("EMP-01", "Ravi", "ravi@company.com", dept);
+        Employee emp = new Employee("EMP-01", "Sathwik", "sathwik@company.com", dept);
 
         System.out.print("Invoice No: ");
         String invNo = sc.nextLine();
@@ -125,7 +119,7 @@ public class MainApp {
         String invNo = sc.nextLine();
 
         Department dept = new Department("FIN", "Finance", BigDecimal.valueOf(5000000));
-        Employee approver = new Employee("EMP-99", "Finance Head", "fin@company.com", dept);
+        Employee approver = new Employee("EMP-99", "Finance Head", "fines@company.com", dept);
 
         invoiceService.approveInvoice(invNo, approver, approver.getEmail());
         System.out.println(" Invoice approved");
@@ -144,7 +138,7 @@ public class MainApp {
                 invNo,
                 amt,
                 "UPI",
-                "REF12345",
+                "REF12345678",
                 "accounts@company.com"
         );
 

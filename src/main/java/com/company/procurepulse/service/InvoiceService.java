@@ -16,9 +16,6 @@ public class InvoiceService {
     private final InvoiceDao invoiceDao = new InvoiceDao();
     private final AuditLogDao auditLogDao = new AuditLogDao();
 
-    /* =================================================
-       UC4: Create Invoice Draft
-       ================================================= */
     public void createDraftInvoice(Invoice invoice, String actor) {
 
         Transaction tx = null;
@@ -197,9 +194,6 @@ public class InvoiceService {
         }
     }
 
-    /* =================================================
-       UC7: Reject Invoice
-       ================================================= */
     public void rejectInvoice(String invoiceNo, String reason, String actor) {
 
         Transaction tx = null;
@@ -241,9 +235,6 @@ public class InvoiceService {
         }
     }
 
-    /* =================================================
-       UC9: Cancel Invoice
-       ================================================= */
     public void cancelInvoice(String invoiceNo, String actor) {
 
         Transaction tx = null;
@@ -284,9 +275,6 @@ public class InvoiceService {
         }
     }
 
-    /* =================================================
-       Helper: Recalculate Totals
-       ================================================= */
     private void recalculateTotals(Invoice invoice) {
 
         BigDecimal total = BigDecimal.ZERO;

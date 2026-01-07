@@ -11,17 +11,12 @@ public class InvoiceLine {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    /* =======================
-       Relationship
-       ======================= */
+  
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "invoice_id", nullable = false)
     private Invoice invoice;
 
-    /* =======================
-       Line item fields
-       ======================= */
 
     @Column(name = "item_name", nullable = false, length = 160)
     private String itemName;
@@ -35,9 +30,6 @@ public class InvoiceLine {
     @Column(name = "line_total", nullable = false, precision = 12, scale = 2)
     private BigDecimal lineTotal;
 
-    /* =======================
-       Constructors
-       ======================= */
 
     public InvoiceLine() {
     }

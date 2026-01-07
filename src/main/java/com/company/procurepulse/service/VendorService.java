@@ -14,9 +14,6 @@ public class VendorService {
     private final VendorDao vendorDao = new VendorDao();
     private final AuditLogDao auditLogDao = new AuditLogDao();
 
-    /* =================================================
-       UC1: Vendor Onboarding (Create)
-       ================================================= */
     public void createVendor(Vendor vendor, String actor) {
 
         Transaction tx = null;
@@ -50,9 +47,6 @@ public class VendorService {
         }
     }
 
-    /* =================================================
-       UC2: Vendor Update
-       ================================================= */
     public void updateVendor(
             String vendorCode,
             String email,

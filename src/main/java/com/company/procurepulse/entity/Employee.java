@@ -23,17 +23,11 @@ public class Employee {
     @Column(name = "email", nullable = false, length = 120)
     private String email;
 
-    /* =======================
-       Relationships
-       ======================= */
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "dept_id", nullable = false)
     private Department department;
 
-    /* =======================
-       Constructors
-       ======================= */
 
     public Employee() {
     }
@@ -44,10 +38,6 @@ public class Employee {
         this.email = email;
         this.department = department;
     }
-
-    /* =======================
-       Getters & Setters
-       ======================= */
 
     public Long getId() {
         return id;

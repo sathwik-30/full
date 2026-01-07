@@ -30,7 +30,6 @@ public class Department {
         this.yearlyBudget = yearlyBudget;
     }
 
-    // ===== Getters & Setters =====
     public Long getId() {
         return id;
     }

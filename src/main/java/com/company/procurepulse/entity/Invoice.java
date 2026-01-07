@@ -21,9 +21,6 @@ public class Invoice {
     @Column(name = "invoice_no", nullable = false, length = 30)
     private String invoiceNo;
 
-    /* =======================
-       Relationships
-       ======================= */
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "vendor_id", nullable = false)
@@ -74,17 +71,11 @@ public class Invoice {
     @Column(name = "reject_reason", length = 255)
     private String rejectReason;
 
-    /* =======================
-       Optimistic Locking
-       ======================= */
 
     @Version
     @Column(name = "version", nullable = false)
     private Long version;
 
-    /* =======================
-       Constructors
-       ======================= */
 
     public Invoice() {
     }
@@ -117,9 +108,6 @@ public class Invoice {
         line.setInvoice(null);
     }
 
-    /* =======================
-       Getters & Setters
-       ======================= */
 
     public Long getId() {
         return id;

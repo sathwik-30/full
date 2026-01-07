@@ -19,9 +19,6 @@ public class PaymentService {
     private final InvoiceDao invoiceDao = new InvoiceDao();
     private final AuditLogDao auditLogDao = new AuditLogDao();
 
-    /* =================================================
-       UC8: Record Payment
-       ================================================= */
     public void recordPayment(
             String invoiceNo,
             BigDecimal paidAmount,
