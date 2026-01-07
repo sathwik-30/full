@@ -1,5 +1,6 @@
 package com.company.procurepulse.ui;
 
+
 import com.company.procurepulse.entity.*;
 import com.company.procurepulse.service.*;
 
@@ -81,7 +82,7 @@ public class MainApp {
         );
 
         vendorService.createVendor(vendor, "admin@company.com");
-        System.out.println("✅ Vendor created");
+        System.out.println(" Vendor created");
     }
 
     private static void createInvoiceDraft() {
@@ -108,7 +109,7 @@ public class MainApp {
         invoice.addLine(new InvoiceLine("Switch", 1, BigDecimal.valueOf(15000)));
 
         invoiceService.createDraftInvoice(invoice, emp.getEmail());
-        System.out.println("✅ Invoice draft created");
+        System.out.println("Invoice draft created");
     }
 
     private static void submitInvoice() {
@@ -116,7 +117,7 @@ public class MainApp {
         String invNo = sc.nextLine();
 
         invoiceService.submitInvoice(invNo, "user@company.com");
-        System.out.println("✅ Invoice submitted");
+        System.out.println("Invoice submitted");
     }
 
     private static void approveInvoice() {
@@ -127,7 +128,7 @@ public class MainApp {
         Employee approver = new Employee("EMP-99", "Finance Head", "fin@company.com", dept);
 
         invoiceService.approveInvoice(invNo, approver, approver.getEmail());
-        System.out.println("✅ Invoice approved");
+        System.out.println(" Invoice approved");
     }
 
     private static void recordPayment() {
@@ -147,7 +148,7 @@ public class MainApp {
                 "accounts@company.com"
         );
 
-        System.out.println("✅ Payment recorded");
+        System.out.println(" Payment recorded");
     }
 
     private static void showDashboard() {

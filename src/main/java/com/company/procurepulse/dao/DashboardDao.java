@@ -8,9 +8,6 @@ import java.util.List;
 
 public class DashboardDao {
 
-    /* =================================================
-       R1: Total Spend (MTD)
-       ================================================= */
     public BigDecimal totalSpendMTD(Session session, int year, int month) {
         String hql = """
                 select coalesce(sum(i.amount), 0)
@@ -26,9 +23,6 @@ public class DashboardDao {
                 .uniqueResult();
     }
 
-    /* =================================================
-       R2: Total Spend (YTD)
-       ================================================= */
     public BigDecimal totalSpendYTD(Session session, int year) {
         String hql = """
                 select coalesce(sum(i.amount), 0)
@@ -42,9 +36,6 @@ public class DashboardDao {
                 .uniqueResult();
     }
 
-    /* =================================================
-       R3: Spend by Department
-       ================================================= */
     public List<Object[]> spendByDepartment(Session session, int year) {
         String hql = """
                 select i.department.deptCode, sum(i.amount)
@@ -60,9 +51,6 @@ public class DashboardDao {
                 .list();
     }
 
-    /* =================================================
-       R4: Spend by Vendor
-       ================================================= */
     public List<Object[]> spendByVendor(Session session, int year) {
         String hql = """
                 select i.vendor.vendorCode, sum(i.amount)
@@ -78,9 +66,6 @@ public class DashboardDao {
                 .list();
     }
 
-    /* =================================================
-       R5: Invoice Status Distribution
-       ================================================= */
     public List<Object[]> invoiceStatusDistribution(Session session) {
         String hql = """
                 select i.status, count(i)
@@ -107,9 +92,6 @@ public class DashboardDao {
                 .uniqueResult();
     }
 
-    /* =================================================
-       R8: Overdue Count
-       ================================================= */
     public Long overdueCount(Session session, LocalDate today) {
         String hql = """
                 select count(i)
@@ -123,9 +105,6 @@ public class DashboardDao {
                 .uniqueResult();
     }
 
-    /* =================================================
-       R9: Aging Bucket Report
-       ================================================= */
     public List<Object[]> agingBuckets(
             Session session,
             LocalDate today,
@@ -160,9 +139,6 @@ public class DashboardDao {
                 .list();
     }
 
-    /* =================================================
-       R10: Approved but Unpaid
-       ================================================= */
     public Object[] approvedButUnpaid(Session session) {
         String hql = """
                 select count(i), coalesce(sum(i.amount),0)
